@@ -1,0 +1,104 @@
+@mixin size($width, $height: unset) {
+	width: $width;
+	height: $height;
+}
+
+$white-main: #f5f5f5;
+$dark-green: #003228;
+$blue: #63b4ee;
+$light-blue: #d5e4f4;
+$dark-blue: #3d6385;
+$light-turquoise: #e5f4f8;
+
+$mobile: 450px;
+$tablet: 850px;
+$laptop: 1000px;
+
+html {
+	// scroll-snap-type: y mandatory;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	font-family: "Poppins", sans-serif;
+	color: $dark-green;
+	background: $white-main;
+	--line-color: #d5e4f4;
+}
+
+.section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 8px;
+}
+
+.section,
+.Welcome {
+	scroll-snap-align: start;
+	scroll-snap-stop: always;
+	min-height: 100vh;
+}
+
+//PC
+.content {
+	width: 50%;
+	text-align: center;
+	margin-top: 2%;
+
+	h1 {
+		font-weight: 300;
+		font-size: 3.6rem;
+		margin: 0;
+	}
+	p {
+		font-weight: 200;
+		font-size: 1.5rem;
+	}
+}
+
+//LAPTOP DISPLAY
+@media screen and (max-width: $laptop) {
+	.content {
+		width: 65%;
+		margin-top: 2%;
+
+		h1 {
+			font-size: 3rem;
+		}
+		p {
+			font-size: 1.3rem;
+		}
+	}
+}
+
+//TABLET DISPLAY
+@media screen and (max-width: $tablet) {
+	.content {
+		width: 75%;
+		margin-top: 5%;
+		h1 {
+			font-size: 2.5rem;
+		}
+		p {
+			font-size: 1rem;
+		}
+	}
+}
+
+//MOBILE DISPLAY
+@media screen and (max-width: $mobile) {
+	.content {
+		width: 90%;
+		margin-top: 5%;
+		h1 {
+			font-size: 2.2rem;
+		}
+		p {
+			font-size: 1rem;
+		}
+	}
+}

@@ -1,0 +1,13 @@
+@import "/src/main.scss";
+
+.Works.section {
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	background: $dark-blue;
+	gap: 40px;
+	.work {
+		@include size(200px, 300px);
+		background: $dark-green;
+	}
+}

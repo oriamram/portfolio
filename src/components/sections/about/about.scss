@@ -1,0 +1,12 @@
+@import "/src/main.scss";
+
+.About.section {
+	background: $light-blue;
+	.logos.about {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-top: 8%;
+		margin-bottom: 5%;
+	}
+}
