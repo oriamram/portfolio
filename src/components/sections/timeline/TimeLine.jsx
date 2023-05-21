@@ -2,6 +2,7 @@ import React from "react";
 import "./timeLine.scss";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import * as blob_1 from "/blob-timeline-1.svg";
 
 const TimeLineCard = () => (
 	<VerticalTimelineElement
@@ -43,6 +44,7 @@ const TimeLine = () => {
 					<TimeLineCard />
 				</VerticalTimeline>
 			</div>
+			<div style={{ width: "100px", height: "100px", backgroundImage: "url(blob-timeline-1.svg)", backgroundSize: "cover" }}></div>
 		</div>
 	);
 };
