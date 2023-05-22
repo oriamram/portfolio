@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./timeLine.scss";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import * as blob_1 from "/blob-timeline-1.svg";
+import { WhatDeviceContext } from "../../../App";
+import { useMediaQuery } from "react-responsive";
 
 const TimeLineCard = () => (
 	<VerticalTimelineElement
@@ -30,8 +31,23 @@ const TimeLineCard = () => (
 );
 
 const TimeLine = () => {
+	const isSmallScreen = useMediaQuery({
+		query: "(max-width: 1170px)",
+	});
+
+	const shouldDisplayBg = isSmallScreen ? "" : "url(layered-peaks-timeline-2.svg)";
+
 	return (
-		<div className="TimeLine section">
+		<div className="TimeLine section" style={{ backgroundImage: shouldDisplayBg, backgroundSize: "cover" }}>
+			<div
+				style={{
+					backgroundImage: "url(layered-peaks-timeline-1.svg)",
+					backgroundSize: "cover",
+					width: "100%",
+					height: "100%",
+					position: "absolute",
+				}}
+			></div>
 			<div className="content time-line">
 				<h1>Lorem ipsum dolor sit amet.</h1>
 				<p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
@@ -44,7 +60,6 @@ const TimeLine = () => {
 					<TimeLineCard />
 				</VerticalTimeline>
 			</div>
-			<div style={{ width: "100px", height: "100px", backgroundImage: "url(blob-timeline-1.svg)", backgroundSize: "cover" }}></div>
 		</div>
 	);
 };

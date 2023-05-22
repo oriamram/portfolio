@@ -5,7 +5,7 @@ import { WhatDeviceContext } from "../../../App";
 const Welcome = () => {
 	const device = useContext(WhatDeviceContext);
 
-	const isMobile =
+	const bgByDevice =
 		device === "mobile"
 			? "url(blob-scene-welcome-mobile.svg)"
 			: device === "tablet"
@@ -13,7 +13,7 @@ const Welcome = () => {
 			: "url(blob-scene-welcome.svg)";
 
 	return (
-		<div className="Welcome" style={{ backgroundImage: isMobile, backgroundSize: "cover" }}>
+		<div className="Welcome" style={{ backgroundImage: bgByDevice, backgroundSize: "cover" }}>
 			<div className="content welcome">
 				<h1>Lorem ipsum dolor sit.</h1>
 				<p>
