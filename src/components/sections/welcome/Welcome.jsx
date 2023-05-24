@@ -7,10 +7,10 @@ const Welcome = () => {
 
 	const bgByDevice =
 		device === "mobile"
-			? "url(blob-scene-welcome-mobile.svg)"
+			? "url(bgs/blob-scene-welcome-mobile.svg)"
 			: device === "tablet"
-			? "url(blob-scene-welcome-tablet.svg)"
-			: "url(blob-scene-welcome.svg)";
+			? "url(bgs/blob-scene-welcome-tablet.svg)"
+			: "url(bgs/blob-scene-welcome.svg)";
 
 	return (
 		<div className="Welcome" style={{ backgroundImage: bgByDevice, backgroundSize: "cover" }}>

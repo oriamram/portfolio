@@ -6,7 +6,7 @@ import { WhatDeviceContext } from "../../../App";
 
 const About = () => {
 	const device = useContext(WhatDeviceContext);
-	const isMobile = device === "mobile" || device === "tablet" ? "url(layered-waves-about-mobile.svg)" : "url(layered-waves-about.svg)";
+	const isMobile = device === "mobile" || device === "tablet" ? "url(bgs/layered-waves-about-mobile.svg)" : "url(bgs/layered-waves-about.svg)";
 
 	return (
 		<div className="About section" style={{ backgroundImage: isMobile, backgroundSize: "cover" }}>

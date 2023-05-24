@@ -1,7 +1,7 @@
 import Welcome from "./components/sections/welcome/Welcome";
 import About from "./components/sections/about/About";
 import "./main.scss";
-import Works from "./components/sections/experiences/Experiences";
+import Works from "./components/sections/projects/Projects";
 import TimeLine from "./components/sections/timeline/TimeLine";
 import { createContext } from "react";
 import { useMediaQuery } from "react-responsive";

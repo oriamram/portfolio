@@ -7,7 +7,7 @@ import { WhatDeviceContext } from "../../App";
 const Tech = ({ tech }) => {
 	const device = useContext(WhatDeviceContext);
 	const { progress } = useProgress();
-	const decal = useTexture(`${tech}.png`);
+	const decal = useTexture(`techs/${tech}.png`);
 
 	return (
 		<>
@@ -16,7 +16,7 @@ const Tech = ({ tech }) => {
 					<p>{Math.floor(progress)}%</p>
 				</Html>
 			) : (
-				<Float speed={2} rotationIntensity={1.5} floatIntensity={4}>
+				<Float speed={3} rotationIntensity={1.5} floatIntensity={4}>
 					<ambientLight intensity={0.3} />
 					<directionalLight position={[0, 0, 0.05]} />
 					<mesh castShadow receiveShadow scale={device === "mobile" ? 1.5 : device === "tablet" ? 1.75 : device === "laptop" ? 2 : 2.25}>

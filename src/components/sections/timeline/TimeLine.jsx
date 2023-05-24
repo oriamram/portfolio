@@ -35,13 +35,13 @@ const TimeLine = () => {
 		query: "(max-width: 1170px)",
 	});
 
-	const shouldDisplayBg = isSmallScreen ? "" : "url(layered-peaks-timeline-2.svg)";
+	const shouldDisplayBg = isSmallScreen ? "" : "url(bgs/layered-peaks-timeline-2.svg)";
 
 	return (
 		<div className="TimeLine section" style={{ backgroundImage: shouldDisplayBg, backgroundSize: "cover" }}>
 			<div
 				style={{
-					backgroundImage: "url(layered-peaks-timeline-1.svg)",
+					backgroundImage: "url(bgs/layered-peaks-timeline-1.svg)",
 					backgroundSize: "cover",
 					width: "100%",
 					height: "100%",
