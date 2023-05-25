@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import "./Welcome.scss";
+import "./welcome.scss";
 import { WhatDeviceContext } from "../../../App";
 
 const Welcome = () => {
