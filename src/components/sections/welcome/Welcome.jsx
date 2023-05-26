@@ -14,6 +14,7 @@ const Welcome = () => {
 
 	return (
 		<div className="Welcome" style={{ backgroundImage: bgByDevice, backgroundSize: "cover" }}>
+			aaaaaaa
 			<div className="content welcome">
 				<h1>Lorem ipsum dolor sit.</h1>
 				<p>
