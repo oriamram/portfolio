@@ -18,7 +18,8 @@ const About = () => {
 					eveniet dolorum pariatur sint, odio suscipit quibusdam porro explicabo. Dolorum praesentium sint minus, at ipsam atque. Voluptatem
 				</p>
 			</div>
-			<div className="logos about">
+
+			<div className="logos about" id="one">
 				{techs.default.map((techName) => (
 					<Tech tech={techName} key={techName} />
 				))}
