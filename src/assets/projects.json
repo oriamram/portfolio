@@ -1,26 +1,26 @@
 [
 	{
-		"img": "projectPics/pokedex.png",
+		"img": "projectPics/pokedex.jpg",
 		"title": "Pokedex",
 		"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ipsa cupiditate rem a tenetur possimus."
 	},
 	{
-		"img": "projectPics/chess.png",
+		"img": "projectPics/chess.jpg",
 		"title": "Chess",
 		"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ipsa cupiditate rem a tenetur possimus."
 	},
 	{
-		"img": "projectPics/books-crud.png",
+		"img": "projectPics/books-crud.jpg",
 		"title": "Books",
 		"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ipsa cupiditate rem a tenetur possimus."
 	},
 	{
-		"img": "projectPics/online-editor.png",
+		"img": "projectPics/online-editor.jpg",
 		"title": "online editor",
 		"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ipsa cupiditate rem a tenetur possimus."
 	},
 	{
-		"img": "projectPics/web-scraper.png",
+		"img": "projectPics/web-scraper.jpg",
 		"title": "web scraper",
 		"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ipsa cupiditate rem a tenetur possimus."
 	}

@@ -48,7 +48,7 @@ const Projects = () => {
 			</div>
 			<div className="cards-container">
 				<button id="prev">
-					<span class="material-symbols-outlined" onClick={prevProject}>
+					<span className="material-symbols-outlined" onClick={prevProject}>
 						arrow_back_ios
 					</span>
 				</button>
@@ -71,7 +71,7 @@ const Projects = () => {
 				</motion.div>
 
 				<button id="next">
-					<span class="material-symbols-outlined" onClick={nextProject}>
+					<span className="material-symbols-outlined" onClick={nextProject}>
 						arrow_forward_ios
 					</span>
 				</button>
