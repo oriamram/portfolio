@@ -6,13 +6,17 @@
 	}
 
 	.cards-container {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-items: center;
-		gap: 50px;
-
+		.project-card {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			gap: 50px;
+		}
+		button {
+			display: none;
+		}
 		.project {
 			@include size(220px, 300px);
 			display: flex;
@@ -45,6 +49,22 @@
 
 			&:hover {
 				cursor: pointer;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: $tablet) {
+	.Works.section {
+		.cards-container {
+			display: flex;
+			flex-direction: row;
+			gap: 10px;
+
+			button {
+				display: inline-block;
+				background: none;
+				border: none;
 			}
 		}
 	}

@@ -1,0 +1,27 @@
+[
+	{
+		"img": "projectPics/pokedex.png",
+		"title": "Pokedex",
+		"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ipsa cupiditate rem a tenetur possimus."
+	},
+	{
+		"img": "projectPics/chess.png",
+		"title": "Chess",
+		"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ipsa cupiditate rem a tenetur possimus."
+	},
+	{
+		"img": "projectPics/books-crud.png",
+		"title": "Books",
+		"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ipsa cupiditate rem a tenetur possimus."
+	},
+	{
+		"img": "projectPics/online-editor.png",
+		"title": "online editor",
+		"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ipsa cupiditate rem a tenetur possimus."
+	},
+	{
+		"img": "projectPics/web-scraper.png",
+		"title": "web scraper",
+		"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ipsa cupiditate rem a tenetur possimus."
+	}
+]

@@ -13,12 +13,12 @@ const defaultOptions = {
 	easing: "cubic-bezier(.03,.98,.52,.99)", // Easing on enter/exit.
 };
 
-const ProjectCard = () => {
+const ProjectCard = ({ data }) => {
 	return (
 		<Tilt className="project" options={defaultOptions}>
-			<img src="https://user-images.githubusercontent.com/97836572/192986731-464c14d2-e810-48c3-a1d4-f780a424e29b.png" />
-			<h3>Lorem, ipsum dolor.</h3>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, veritatis ratione hic animi molestias cupiditate?</p>
+			<img src={data.img} />
+			<h3>{data.title}</h3>
+			<p>{data.content}</p>
 		</Tilt>
 	);
 };
