@@ -13,7 +13,7 @@ const Tech = ({ tech }) => {
 		<>
 			{progress < 100 ? (
 				<Html>
-					<Skeleton variant="circular" width={70} height={70} />
+					<Skeleton variant="circular" width={device === "tablet" ? 50 : 70} height={device === "tablet" ? 50 : 70} />
 				</Html>
 			) : (
 				<Float speed={3} rotationIntensity={2} floatIntensity={6}>

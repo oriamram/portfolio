@@ -11,11 +11,16 @@ const About = () => {
 	return (
 		<div className="About section" style={{ backgroundImage: isMobile, backgroundSize: "cover" }}>
 			<div className="content about">
-				<h1>Lorem ipsum dolor sit amet.</h1>
+				<h1>How Am I So Good?</h1>
 				<p>
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est voluptate sunt facilis tenetur hic voluptatum, necessitatibus
-					pariatur corrupti fugit corporis. Delectus nam quo officiis quae at libero fugit voluptatibus velit qui minima aliquam expedita
-					eveniet dolorum pariatur sint, odio suscipit quibusdam porro explicabo. Dolorum praesentium sint minus, at ipsam atque. Voluptatem
+					After completing 5 points in each math, english, physics and computer science, I joind the army as a combat soldier and In just a
+					year and a half, I rose to the rank of platoon sergeant.
+					<br />
+					As my passion always have been becoming a programmer I enrolled in the "
+					<strong style={{ fontWeight: 400 }}>Lohamim La-Hightech</strong>" program where I dedicated 6 months to fullstack studies (I Have
+					to say that I have learned a lot and enjoied every moment).
+					<br />
+					Finally I could start my way in the industry and so I became a QA at Elbit Systems.
 				</p>
 			</div>
 

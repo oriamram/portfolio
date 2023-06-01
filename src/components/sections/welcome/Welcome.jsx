@@ -15,10 +15,13 @@ const Welcome = () => {
 	return (
 		<div className="Welcome" style={{ backgroundImage: bgByDevice, backgroundSize: "cover" }}>
 			<div className="content welcome">
-				<h1>Lorem ipsum dolor sit.</h1>
+				<h1>The Ori Show</h1>
 				<p>
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur non ullam reiciendis, accusamus maxime illo modi! Doloremque
-					nobis sit labore libero. Optio inventore modi animi soluta voluptates vero ipsam ratione molestiae, nisi magnam asperiores labore
+					Welcome to my world, presents to you by the powers of a <span className="bold">Full</span>-<span className="bold">Stack</span>
+					<span className="bold"> Developer!</span>
+					<br /> whether you are an employer seeking insights or just someone I <span className="light">forced</span> to visit the website,
+					you've come to the right place. Projects, technologies, hobbies and much more! <br />
+					so why wait?
 				</p>
 			</div>
 		</div>
