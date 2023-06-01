@@ -2,6 +2,7 @@ import React, { useContext, useEffect } from "react";
 import { Canvas } from "@react-three/fiber";
 import { Decal, Float, OrbitControls, useTexture, useProgress, Html } from "@react-three/drei";
 import { WhatDeviceContext } from "../../App";
+import { Skeleton } from "@mui/material";
 
 const Tech = ({ tech }) => {
 	const device = useContext(WhatDeviceContext);
@@ -12,7 +13,7 @@ const Tech = ({ tech }) => {
 		<>
 			{progress < 100 ? (
 				<Html>
-					<p>{Math.floor(progress)}%</p>
+					<Skeleton variant="circular" width={70} height={70} />
 				</Html>
 			) : (
 				<Float speed={3} rotationIntensity={2} floatIntensity={6}>

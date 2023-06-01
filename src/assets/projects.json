@@ -2,26 +2,31 @@
 	{
 		"img": "projectPics/pokedex.jpg",
 		"title": "Pokedex",
-		"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ipsa cupiditate rem a tenetur possimus."
+		"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ipsa cupiditate rem a tenetur possimus.",
+		"url": "https://github.com/oriamram/Pokedex"
 	},
 	{
 		"img": "projectPics/chess.jpg",
 		"title": "Chess",
-		"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ipsa cupiditate rem a tenetur possimus."
+		"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ipsa cupiditate rem a tenetur possimus.",
+		"url": "https://github.com/oriamram/ChessBoardJS"
 	},
 	{
 		"img": "projectPics/books-crud.jpg",
 		"title": "Books",
-		"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ipsa cupiditate rem a tenetur possimus."
+		"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ipsa cupiditate rem a tenetur possimus.",
+		"url": "https://github.com/oriamram/Books-crud"
 	},
 	{
 		"img": "projectPics/online-editor.jpg",
 		"title": "online editor",
-		"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ipsa cupiditate rem a tenetur possimus."
+		"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ipsa cupiditate rem a tenetur possimus.",
+		"url": "https://github.com/oriamram/Online-Editor"
 	},
 	{
 		"img": "projectPics/web-scraper.jpg",
 		"title": "web scraper",
-		"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ipsa cupiditate rem a tenetur possimus."
+		"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ipsa cupiditate rem a tenetur possimus.",
+		"url": "https://github.com/oriamram/web-scraper_tor"
 	}
 ]
