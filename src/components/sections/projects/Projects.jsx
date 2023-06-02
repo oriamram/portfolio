@@ -65,7 +65,7 @@ const Projects = () => {
 						<ProjectCard data={projectsData.default[index]} />
 					) : (
 						projectsData.default.map((projectData) => {
-							return <ProjectCard data={projectData} />;
+							return <ProjectCard data={projectData} key={projectData.title} />;
 						})
 					)}
 				</motion.div>

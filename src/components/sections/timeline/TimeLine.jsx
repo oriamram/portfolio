@@ -3,6 +3,7 @@ import { VerticalTimeline } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { useMediaQuery } from "react-responsive";
 import TimeLineCard from "./TimeLineCard";
+import * as TimeCardsData from "/src/assets/TimeCardsData.json";
 
 const TimeLine = () => {
 	const isSmallScreen = useMediaQuery({
@@ -28,10 +29,9 @@ const TimeLine = () => {
 			</div>
 			<div className="time-line">
 				<VerticalTimeline>
-					<TimeLineCard />
-					<TimeLineCard />
-					<TimeLineCard />
-					<TimeLineCard />
+					{TimeCardsData.default.map((cardData) => (
+						<TimeLineCard cardData={cardData} key={cardData.title} />
+					))}
 				</VerticalTimeline>
 			</div>
 		</div>

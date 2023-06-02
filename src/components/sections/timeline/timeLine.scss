@@ -2,8 +2,17 @@
 
 .TimeLine.section {
 	background: $light-turquoise;
+	h5 {
+		margin-top: 0;
+	}
+	h1 {
+		margin-bottom: 0;
+	}
 }
 
 .time-line {
 	width: 100%;
+}
+.icon {
+	color: $dark-blue;
 }
