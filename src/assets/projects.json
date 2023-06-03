@@ -2,31 +2,31 @@
 	{
 		"img": "projectPics/pokedex.jpg",
 		"title": "Pokedex",
-		"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ipsa cupiditate rem a tenetur possimus.",
+		"content": "Tired of all the regular pokemones? Looking for something new? up to 8,000 newly fused pokemons, this website is the best to discover your next favorite pokemon",
 		"url": "https://github.com/oriamram/Pokedex"
 	},
 	{
 		"img": "projectPics/chess.jpg",
 		"title": "Chess",
-		"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ipsa cupiditate rem a tenetur possimus.",
+		"content": "The first big project of the course. A chess game for two players.",
 		"url": "https://github.com/oriamram/ChessBoardJS"
 	},
 	{
 		"img": "projectPics/books-crud.jpg",
 		"title": "Books",
-		"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ipsa cupiditate rem a tenetur possimus.",
+		"content": "A CRUD app that allow the user to create delete post and edit the books that in the database.",
 		"url": "https://github.com/oriamram/Books-crud"
 	},
 	{
 		"img": "projectPics/online-editor.jpg",
 		"title": "online editor",
-		"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ipsa cupiditate rem a tenetur possimus.",
+		"content": "A mentor - student website that contains a few code-blocks leading to a coding page, the code-block page changes in real-time for all of the users.",
 		"url": "https://github.com/oriamram/Online-Editor"
 	},
 	{
 		"img": "projectPics/web-scraper.jpg",
 		"title": "web scraper",
-		"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ipsa cupiditate rem a tenetur possimus.",
+		"content": "Project with Rapid 7. A dark-web (using tor) scraper that analize the scraped data.",
 		"url": "https://github.com/oriamram/web-scraper_tor"
 	}
 ]
