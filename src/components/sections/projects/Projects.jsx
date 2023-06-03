@@ -43,8 +43,8 @@ const Projects = () => {
 	return (
 		<div className="Works section" style={{ backgroundImage: "url(bgs/blob-scatter-projects.svg)", backgroundSize: "cover" }}>
 			<div className="content">
-				<h1>Lorem, ipsum.</h1>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ipsa cupiditate rem a tenetur possimus.</p>
+				<h1>Projects</h1>
+				<p>This is my portfolio, a blend of projects that I've created individually as well as collaborations within a team.</p>
 			</div>
 			<div className="cards-container">
 				<button id="prev">

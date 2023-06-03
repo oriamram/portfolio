@@ -9,14 +9,14 @@
 	{
 		"title": "Relocation",
 		"subTitle": "Hadera To Hod-Hasharon",
-		"content": "After 13 years I left the place where I grew up and moved to a new one. new place, new friend, new me.",
+		"content": "After 13 years I left the place where I grew up and moved to a new one. New place, new friends, new me.",
 		"date": "2014",
 		"spec": "general"
 	},
 
 	{
 		"title": "High School",
-		"subTitle": "When you try your best but you- Succeed?",
+		"subTitle": "Hadarim high school, Hod Hasharon",
 		"content": "I was the one that all the teachers loved because he never interupts the classes. As a computer enthusiast I studied 5 points of Computer Science along with Maths, Physics and English.",
 		"date": "2016-2019",
 		"spec": "studies"
@@ -31,8 +31,22 @@
 	{
 		"title": "Army",
 		"subTitle": "Combat soldier and a platoon sergeant at Mesaya'at Shiryon",
-		"content": "after 8 months of training I was sent to commander's course for another 4 months. Upon completion the course I was honored to be selected as a commander in the operative forces where I quickly climbed to the rank of platoon sergeant.",
+		"content": "After 8 months of training I was sent to commander's course for another 4 months. Upon completion the course I was honored to be selected as a commander in the operative forces where I quickly climbed to the rank of platoon sergeant.",
 		"date": "2019-2022",
 		"spec": "general"
+	},
+	{
+		"title": "Cyber4s - Fullstack Course",
+		"subTitle": "Scale-Up Velocity, 6 months of intense study",
+		"content": "Upon completing my military service, I joined the Lohamim La-Hightech program. Following a selection process that narrowed down the participants from 117 to 40 students, I continued 5 more months of intensive, professional full-stack study.",
+		"date": "2022",
+		"spec": "studies"
+	},
+	{
+		"title": "Elbit Systems",
+		"subTitle": "My first role in the industry",
+		"content": "Starting my way up in the industry at Elbit Systems as a Software Tester. It's an incredible workplace filled with wonderful people and opportunities to enhance my skills.",
+		"date": "2022",
+		"spec": "studies"
 	}
 ]

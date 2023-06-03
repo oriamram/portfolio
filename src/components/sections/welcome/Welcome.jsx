@@ -16,6 +16,7 @@ const Welcome = () => {
 		<div className="Welcome" style={{ backgroundImage: bgByDevice, backgroundSize: "cover" }}>
 			<div className="content welcome">
 				<h1>The Ori Show</h1>
+				<span style={{ fontSize: "1.7rem" }}>- beta -</span>
 				<p>
 					Welcome to my world, presents to you by the powers of a <span className="bold">Full</span>-<span className="bold">Stack</span>
 					<span className="bold"> Developer!</span>

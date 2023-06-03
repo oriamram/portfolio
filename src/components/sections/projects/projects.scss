@@ -46,9 +46,10 @@
 				font-weight: 200;
 				font-size: 0.9rem;
 			}
-
-			&:hover {
-				cursor: pointer;
+			a {
+				&:hover {
+					cursor: pointer;
+				}
 			}
 		}
 	}
