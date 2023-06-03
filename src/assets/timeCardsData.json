@@ -24,8 +24,15 @@
 	{
 		"title": "Gym",
 		"subTitle": "The moment you entered the gym for the first time, is the moment you become forever small.",
-		"content": "asdasdsad",
+		"content": "One of my main hobbies, my perspective is if we dedicate ourselves to studying and training our minds, it's equally important to do so for our bodies.",
 		"date": "2016-9999",
 		"spec": "training"
+	},
+	{
+		"title": "Army",
+		"subTitle": "Combat soldier and a platoon sergeant at Mesaya'at Shiryon",
+		"content": "after 8 months of training I was sent to commander's course for another 4 months. Upon completion the course I was honored to be selected as a commander in the operative forces where I quickly climbed to the rank of platoon sergeant.",
+		"date": "2019-2022",
+		"spec": "general"
 	}
 ]
