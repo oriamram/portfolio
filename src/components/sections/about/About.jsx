@@ -11,7 +11,7 @@ const About = () => {
 	return (
 		<div className="About section" style={{ backgroundImage: isMobile, backgroundSize: "cover" }}>
 			<div className="content about">
-				<h1>How Am I So Good?</h1>
+				<h1>Wanna know me?</h1>
 				<p>
 					After completing 5 points in each math, english, physics and computer science, I joind the army as a combat soldier and In just a
 					year and a half, I rose to the rank of platoon sergeant.
