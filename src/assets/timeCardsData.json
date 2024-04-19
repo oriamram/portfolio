@@ -39,14 +39,21 @@
 		"title": "Cyber4s - Fullstack Course",
 		"subTitle": "Scale-Up Velocity, 6 months of intense study",
 		"content": "Upon completing my military service, I joined the Lohamim La-Hightech program. Following a selection process that narrowed down the participants from 117 to 40 students, I continued 5 more months of intensive, professional full-stack study.",
-		"date": "2022",
+		"date": "Mar - Sep 2022",
 		"spec": "studies"
 	},
 	{
 		"title": "Elbit Systems",
-		"subTitle": "My first role in the industry",
+		"subTitle": "My first role in the industry - QA",
 		"content": "Starting my way up in the industry at Elbit Systems as a Software Tester. It's an incredible workplace filled with wonderful people and opportunities to enhance my skills.",
-		"date": "2022",
-		"spec": "studies"
+		"date": "Feb 2023",
+		"spec": "work"
+	},
+	{
+		"title": "Elbit Systems",
+		"subTitle": "Still here - (QA + Fullstack Developer)",
+		"content": "Testing manually everytime sometimes can become exhausting. Thats why I created a platform (front and back end) for testing our products and their new features. I primarily used ReactTS, NodeTS, Puppeteer and Jest for that. Working side by side with our developers I learned a lot.",
+		"date": "Sep 2023",
+		"spec": "work"
 	}
 ]

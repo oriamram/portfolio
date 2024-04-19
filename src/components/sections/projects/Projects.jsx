@@ -46,7 +46,7 @@ const Projects = () => {
 				<h1>Projects</h1>
 				<p>This is my portfolio, a blend of projects that I've created individually as well as collaborations within a team.</p>
 			</div>
-			<div className="cards-container">
+			<div className="cards-container"  >
 				<button id="prev">
 					<span className="material-symbols-outlined" onClick={prevProject}>
 						arrow_back_ios
